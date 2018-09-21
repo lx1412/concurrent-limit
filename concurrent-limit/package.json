@@ -1,0 +1,28 @@
+{
+  "name": "concurrent-limit",
+  "version": "1.0.0",
+  "description": "concurrent control",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.js",
+    "build": "webpack"
+  },
+  "keywords": [
+    "concurrent",
+    "limit",
+    "concurrent",
+    "control"
+  ],
+  "author": "lx1412",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "mocha": "^5.2.0",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0"
+  },
+  "broswer": "dist/concurrent-limit.min.js"
+}
