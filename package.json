@@ -8,10 +8,12 @@
     "build": "webpack"
   },
   "keywords": [
-    "concurrent",
     "limit",
     "concurrent",
-    "control"
+    "concurrency",
+    "control",
+    "High Order Function",
+    "Promise"
   ],
   "author": "lx1412",
   "license": "ISC",
