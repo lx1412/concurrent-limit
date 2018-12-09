@@ -28,13 +28,15 @@ import control from '../concurrent-limit.min.js';
 const myFetch=control(fetch,10);
 
 /**your code here*/
+//myFetch('someurl').then(/***/)
 ```
 ### Script Tag
 ```
-<script scr="../concurrent-limit.min.js"></script>
+<script src="../concurrent-limit.min.js"></script>
 
 <script>
 const myFetch=ConcurrentLimit(fetch,10);
 /**your code here*/
+//myFetch('someurl').then(/***/)
 </script>
 ```
